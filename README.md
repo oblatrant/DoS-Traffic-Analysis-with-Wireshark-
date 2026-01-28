@@ -55,7 +55,7 @@ The dataset includes **UDP/QUIC attack traffic** from a single source IP. The go
 ### 5. Display Filtering
 - Filtered by top source IP:
 ```text
-ip.src == <top IP address>
+ip.src == 151.99.110.12
 ````
 
 * Filtered by QUIC protocol:
