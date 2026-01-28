@@ -38,19 +38,19 @@ The dataset includes **UDP/QUIC attack traffic** from a single source IP. The go
 - QUIC accounts for most application-layer traffic.
 - Payloads are encrypted, typical for QUIC.
 
-![Protocol Hierarchy](screenshots/protocol_hierarchy_100K.png)
+![Protocol Hierarchy](Screenshots/protocol_hierarchy_100K.png)
 
 ### 3. Traffic Volume (I/O Graph)
 - Generated **I/O Graph** showing packets per second.
 - Observed **sustained high packet rate**, consistent with DoS attacks.
 
-![I/O Graph](screenshots/io_graph_100K.png)
+![I/O Graph](Screenshots/io_graph_100K.png)
 
 ### 4. IP Conversations
 - **Statistics → Conversations → IPv4** to identify the top source IP.
 - Single source IP is responsible for the majority of packets sent to a single destination IP.
 
-![Conversations](screenshots/conversations_100K.png)
+![Conversations](Screenshots/conversations_100K.png)
 
 ### 5. Display Filtering
 - Filtered by top source IP:
@@ -66,8 +66,8 @@ quic
 
 * Confirmed all packets were **UDP/QUIC traffic with protected payloads** to the same destination.
 
-![Malicious IP Filter](screenshots/malicious_ip_filter.png)
-![UDP Filter](screenshots/udp_flood_100k.png)
+![Malicious IP Filter](Screenshots/malicious_ip_filter.png)
+![UDP Filter](Screenshots/udp_flood_100k.png)
 
 ---
 
