@@ -10,8 +10,8 @@ The dataset includes **UDP/QUIC attack traffic** from a single source IP. The go
 ---
 
 ## Dataset
-- **Source:** Zenodo Open-Access DDoS Traffic Dataset  
-- **File Used:** `100K.pcap` (~100,000 packets per second)  
+- **Source:** [Zenodo Open-Access DDoS Traffic Dataset](https://zenodo.org/records/14049440)
+- **File Used:** `100K.pcap` (~100,000 packets per second)
 - **Reference File:** `maliciousIPs.txt`   
 - **Description:** UDP/QUIC traffic between a single source and destination. Payloads are encrypted.
 
