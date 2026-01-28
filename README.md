@@ -38,7 +38,7 @@ The dataset includes **UDP/QUIC attack traffic** from a single source IP. The go
 - QUIC accounts for most application-layer traffic.
 - Payloads are encrypted, typical for QUIC.
 
-![Protocol Hierarchy](Screenshots/protocol_hierarchy_100k.png)
+![Protocol Hierarchy](Screenshots/protocol_hieracrchy_100k.png)
 
 ### 3. Traffic Volume (I/O Graph)
 - Generated **I/O Graph** showing packets per second.
