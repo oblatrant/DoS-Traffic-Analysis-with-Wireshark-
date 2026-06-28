@@ -6,6 +6,7 @@
 ## Project Overview
 This project analyzes network traffic from a packet capture to identify Denial-of-Service (DoS) attack behavior.  
 The dataset includes **UDP/QUIC attack traffic** from a single source IP. The goal is to show traffic anaylys skills through Wireshark.
+**Made for a classroom analysis**
 
 ---
 
